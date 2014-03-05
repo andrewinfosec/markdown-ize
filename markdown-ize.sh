@@ -18,7 +18,7 @@ HERE
 DESTINATION_DIR=./html
 CSS=./default.css
 
-while getopts hs:d:c: ARG; do
+while getopts hd:c: ARG; do
   case $ARG in
     h|-help)
       usage 
