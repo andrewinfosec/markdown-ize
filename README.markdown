@@ -1,4 +1,3 @@
-
 ### markdown-ize: Convert Markdown files into a portable HTML+CSS package
 
 By Andrew Stewart ([http://andrewinfosec.com](http://andrewinfosec.com))
@@ -43,6 +42,6 @@ only those Markdown files that have changed since the last run are processed.
 
 #### Style
 
-This project follows the ([Google Shell Style
-Guide](http://google-styleguide.googlecode.com/svn/trunk/shell.xml)).
+This project follows the [Google Shell Style
+Guide](http://google-styleguide.googlecode.com/svn/trunk/shell.xml).
 
