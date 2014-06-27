@@ -5,8 +5,8 @@ By Andrew Stewart ([http://andrewinfosec.com](http://andrewinfosec.com))
 [markdown-ize](https://github.com/andrewinfosec/markdown-ize) is a Bash script
 that creates a directory containing HTML files from a source directory
 containing Markdown files. The file names of the Markdown files are used to
-generate an index.html and a style sheet is placed in the destination
-directory for portability.
+generate an index.html with links to each file, and a style sheet is placed in
+the destination directory for portability.
 
 An example use-case is taking notes in plaintext Markdown across several files,
 then processing those files so that they can be moved as a single unit onto a
