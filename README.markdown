@@ -15,11 +15,10 @@ web server.
 #### Example
 
     $ ls 
-    README.markdown default.css md  markdown-ize.sh
+    default.css md  markdown-ize.sh
     $ ls md
     one.md    three.md  two.md
     $ ./markdown-ize.sh ./md/*.md
-    ...
     $ ls html
     default.css index.html  one.html  three.html  two.html
     $ open html/index.html
