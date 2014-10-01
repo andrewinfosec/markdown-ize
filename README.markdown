@@ -31,7 +31,7 @@ web server.
     options: -d <destination directory>  # defaults to ./html
              -c <css file>               # defaults to ./default.css
 
-    e.g. $ markdown-ize.sh *.md
+    e.g. $ ./markdown-ize.sh *.md
 
 
 #### Enhancements
