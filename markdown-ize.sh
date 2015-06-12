@@ -62,7 +62,7 @@ if [[ ! -r $CSS ]]; then
   exit 1
 fi
 
-if ! hash Markdown.pl 2>/dev/null; then # is Markdown.pl in the path?
+if ! hash Markdown.pl 2>/dev/null; then # Is Markdown.pl in the path?
   echo "error: no Markdown.pl" >&2
   exit 1
 else
@@ -86,13 +86,13 @@ for path_and_file in $SOURCE_FILES; do
 
   NAME=${FILENAME%\.*}
   INDEX_TEXT=$INDEX_TEXT"[$NAME](./$NAME.html)  \n"
-  # (because a double space creates a newline in Markdown)
+  # (Because a double space creates a newline in Markdown)
 done
-echo # create a newline after the earlier use of echo -n
+echo # Create a newline after the earlier use of echo -n
 
 echo "<link href=\"$(basename $CSS)\" rel=\"stylesheet\"></link>" > $$
 
-IFS='%' # preserve whitespace to preserve double spaces in Markdown
+IFS='%' # Preserve whitespace to preserve double spaces in Markdown
 echo -e $INDEX_TEXT >> $$
 unset IFS
 
