@@ -42,5 +42,4 @@ only those Markdown files that have changed since the last run are processed.
 #### Style
 
 This project follows the [Google Shell Style
-Guide](http://google-styleguide.googlecode.com/svn/trunk/shell.xml).
-
+Guide](https://google.github.io/styleguide/shell.xml).
