@@ -1,6 +1,6 @@
 ### markdown-ize: Convert Markdown files into a portable HTML+CSS package
 
-By Andrew Stewart ([http://andrewinfosec.com](http://andrewinfosec.com))
+By Andrew Stewart ([https://andrewinfosec.com](https://andrewinfosec.com))
 
 [markdown-ize](https://github.com/andrewinfosec/markdown-ize) is a Bash script
 that creates a directory containing HTML files from a source directory
